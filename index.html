@@ -1,158 +1,159 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>サンプルサイト|ようこそ！〇〇から初める理想の第一歩へ！</title>
-    <meta name="description" content="東京で30年、実績に裏付けされた確かなサービスをご提案致します">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        /*-------------------------
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>サンプルサイト|ようこそ！〇〇から初める理想の第一歩へ！</title>
+        <meta name="description" content="東京で30年、実績に裏付けされた確かなサービスをご提案致します">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            /*-------------------------
   初期値
 -------------------------*/
+            html {
+                font-size: 62.5%;
+                scroll-behavior: smooth;
+            }
 
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
+            body {
+                font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+                color: #333;
+                font-size: 1.6rem;
+                line-height: 2;
+                font-feature-settings: "palt"1;
+            }
 
-body {
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-  color: #333;
-  font-size: 1.6rem;
-  line-height: 2;
-  font-feature-settings: "palt" 1;
-}
+            a {
+                text-decoration: none;
+                letter-spacing: 0.15em;
+            }
 
-a{
-  text-decoration: none;
-  letter-spacing: 0.15em;
-}
+            a:link {
+                color: #422;
+                font-weight: bold;
+            }
 
-a:link{
-  color: #422;
-  font-weight: bold ; 
-}
+            a:visited {
+                color: #333;
+            }
 
-a:visited{
-  color: #333;
-}
+            a:hover {
+                transition: 0.4s ease-in;
+            }
 
-a:hover{
-  transition: 0.4s ease-in;
-}
+            a:hover,
+            a:active {
+                color: #933;
+            }
 
-a:hover,
-a:active{
-  color: #933;
-}
+            em {
+                font-style: normal;
+            }
 
-em{
-  font-style: normal;
-}
+            ol,
+            ul {
+                list-style: none;
+                padding-left: 0;
+            }
 
-ol, ul{
-  list-style: none;
-  padding-left:0;
-}
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
 
-table{
-  border-collapse: collapse;
-  width:100%;
-}
+            tr:nth-of-type(odd) {
+                background-color: #fbfbfb;
+            }
 
-tr:nth-of-type(odd){
-  background-color: #fbfbfb;
-}
+            th {
+                vertical-align: top;
+                text-align: left;
+                border: 1px solid #ccc;
+                padding: 20px;
+            }
 
-th{
-  vertical-align: top;
-  text-align: left;
-  border: 1px solid #ccc;
-  padding:20px;
-}
+            td {
+                border: 1px solid #ccc;
+                padding: 20px;
+            }
 
-td{
-  border: 1px solid #ccc;
-  padding:20px;
-}
+            @media screen and (max-width: 768px) {
 
-@media screen and (max-width: 768px){
-  th,
-  td{
-    padding: 10px;
-  }
-}
+                th,
+                td {
+                    padding: 10px;
+                }
+            }
 
-input[type="text"],
-input[type="email"],
-input[type="submit"],
-textarea,
-select{
-  width: 600px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
+            input[type="text"],
+            input[type="email"],
+            input[type="submit"],
+            textarea,
+            select {
+                width: 600px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+            }
 
-@media screen and (max-width: 768px){
-  input[type="text"],
-  input[type="email"],
-  input[type="submit"],
-  textarea,
-  select{
-    width: 100%;
-  }
-}
+            @media screen and (max-width: 768px) {
 
-input[type="radio"],
-input[type="checkbox"]{
-  margin: 0 10px 0 30px;
-}
+                input[type="text"],
+                input[type="email"],
+                input[type="submit"],
+                textarea,
+                select {
+                    width: 100%;
+                }
+            }
 
-    </style>
-</head>
-<body>
-    <div class="blend"></div>
-<table border="1">
-    <tr>
-        <th>A</th>
-        <td>B</td>
-        <td colspan="3">C</td>
-        <!-- <td>D</td>-->
-        <!-- <td>E</td>-->
-    </tr>
-    <tr>
-        <td>F</td>
-        <th>G</th>
-        <td rowspan="2">H</td>
-        <td>I</td>
-        <td>J</td>
-    </tr>
-    <tr>
-        <td>K</td>
-        <td>L</td>
-        <!--<td>M</td>-->
-        <td>N</td>
-        <th>O</th>
-    </tr>
-    <tr>
-        <th colspan="2">P</th>
-        <!--<td>Q</td>-->
-        <td>R</td>
-        <td>S</td>
-        <td>T</td>
-    </tr>
-</table>
-</body>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ウッディカフェ | 表参道のオープンカフェ</title>
-        <meta name="description" content="2015年表参道駅のそばにオープンした閑静な住宅街に囲まれたオープンカフェ。スタイリッシュなカフェでほっと一息お寛ぎください。">
-        <link rel="icon" type="image/png" href="images/favicon.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap-reboot.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
+            input[type="radio"],
+            input[type="checkbox"] {
+                margin: 0 10px 0 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="blend"></div>
+        <table border="1">
+            <tr>
+                <th>A</th>
+                <td>B</td>
+                <td colspan="3">C</td>
+                <!-- <td>D</td>-->
+                <!-- <td>E</td>-->
+            </tr>
+            <tr>
+                <td>F</td>
+                <th>G</th>
+                <td rowspan="2">H</td>
+                <td>I</td>
+                <td>J</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>L</td>
+                <!--<td>M</td>-->
+                <td>N</td>
+                <th>O</th>
+            </tr>
+            <tr>
+                <th colspan="2">P</th>
+                <!--<td>Q</td>-->
+                <td>R</td>
+                <td>S</td>
+                <td>T</td>
+            </tr>
+        </table>
+    </body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ウッディカフェ | 表参道のオープンカフェ</title>
+    <meta name="description" content="2015年表参道駅のそばにオープンした閑静な住宅街に囲まれたオープンカフェ。スタイリッシュなカフェでほっと一息お寛ぎください。">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header class="gl-header">
