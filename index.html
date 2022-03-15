@@ -6,6 +6,111 @@
     <title>サンプルサイト|ようこそ！〇〇から初める理想の第一歩へ！</title>
     <meta name="description" content="東京で30年、実績に裏付けされた確かなサービスをご提案致します">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /*-------------------------
+  初期値
+-------------------------*/
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  color: #333;
+  font-size: 1.6rem;
+  line-height: 2;
+  font-feature-settings: "palt" 1;
+}
+
+a{
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}
+
+a:link{
+  color: #422;
+  font-weight: bold ; 
+}
+
+a:visited{
+  color: #333;
+}
+
+a:hover{
+  transition: 0.4s ease-in;
+}
+
+a:hover,
+a:active{
+  color: #933;
+}
+
+em{
+  font-style: normal;
+}
+
+ol, ul{
+  list-style: none;
+  padding-left:0;
+}
+
+table{
+  border-collapse: collapse;
+  width:100%;
+}
+
+tr:nth-of-type(odd){
+  background-color: #fbfbfb;
+}
+
+th{
+  vertical-align: top;
+  text-align: left;
+  border: 1px solid #ccc;
+  padding:20px;
+}
+
+td{
+  border: 1px solid #ccc;
+  padding:20px;
+}
+
+@media screen and (max-width: 768px){
+  th,
+  td{
+    padding: 10px;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea,
+select{
+  width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 768px){
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"],
+  textarea,
+  select{
+    width: 100%;
+  }
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+  margin: 0 10px 0 30px;
+}
+
+    </style>
 </head>
 <body>
     <div class="blend"></div>
